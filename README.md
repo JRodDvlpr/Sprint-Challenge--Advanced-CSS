@@ -33,14 +33,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+Responsive is fluid and adapts to the size of the screen no matter what the target device.
+Adaptive works by detecting the screen size and loading the appropriate layout for it.
 
 2. Describe what it means to be mobile first vs desktop first.
 
+We mostly use our cellphones to look up information like searching the web and visiting websites. So Having a design Mobile friendly is important to have first since a lot of users visit websites on their cellphone. Desktop is common and should be design after having a responsive design for mobile.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+REM values are relative to the root of the html element not parent. so 62.55 of 16px would be 10px. 1rem = 10px
 
 4. How would you describe preprocessing to someone new to CSS?
+Preprocessing is when you write less code in your text editor and the compiler compiles it to css format.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I was having a little trouble understanding the @media @mobile Making sure it fits well in the parent directory.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -59,9 +67,9 @@ Follow these steps to set up your project:
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [ x ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ x ] Add your project manager as a reviewer on the pull-request
+- [ x ] Your project manager will count the project as complete by merging the branch back into master.
  
 
 ### Preprocessor Set up
@@ -78,7 +86,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [ x ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
