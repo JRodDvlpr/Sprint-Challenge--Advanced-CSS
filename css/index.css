@@ -7,6 +7,15 @@
 .md-font {
   font-size: 16px;
 }
+.btn-style {
+  font-size: 16px;
+  background-color: #000000;
+  color: #fff;
+  padding: 7px;
+  border-radius: 5px;
+  width: 25%;
+  text-align: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -190,6 +199,7 @@ p {
   text-decoration: none;
   font-size: 16px;
   padding: 20px;
+  color: #000000;
 }
 footer {
   color: #22283B;
@@ -206,6 +216,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro .header-img {
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
@@ -242,6 +255,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  font-size: 16px;
+  background-color: #000000;
+  color: #fff;
+  padding: 7px;
+  border-radius: 5px;
+  width: 25%;
+  text-align: center;
 }
 .home .walk .walk-img {
   width: 46%;
