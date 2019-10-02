@@ -15,13 +15,13 @@
     font-size: 12px;
 }
 
-.btn-style {
+.btn-style (@border: 5px, @width: 25%) {
     .md-font();
     background-color: @btn-bg-color;
     color: #fff;
     padding: 7px;
-    border-radius: 5px;
-    width: 25%;
+    border-radius: @border;
+    width: @width;
     text-align: center;
     
     &:hover {
@@ -35,4 +35,5 @@
          
     }
 }
+
 
