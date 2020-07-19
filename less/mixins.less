@@ -1,1 +1,39 @@
 // Mixins Here
+
+.width-set {
+    max-width: 100%;
+}
+
+.lrg-font {
+    font-size: 48px;
+}
+
+.md-font {
+    font-size: 16px;
+}
+.sm-font {
+    font-size: 12px;
+}
+
+.btn-style (@border: 5px, @width: 25%) {
+    .md-font();
+    background-color: @btn-bg-color;
+    color: #fff;
+    padding: 7px;
+    border-radius: @border;
+    width: @width;
+    text-align: center;
+    
+    &:hover {
+        color: red;
+        background-color: @navbar-color;
+    }
+    @media @mobile {
+        width: 100%;
+        padding: 30px;
+        align-items: center;
+         
+    }
+}
+
+
